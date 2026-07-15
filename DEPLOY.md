@@ -129,7 +129,7 @@ GitHub Pages 会生成一个预览网站。
 | GitHub Trending | 争取上热门 |
 | V2EX | 发到「程序员」节点 |
 | 掘金 | 写技术文章介绍 |
-| OpenClaw 社区 | Discord / 微信群 |
+| OpenCode 社区 | Discord / 微信群 |
 
 ### 3. 联系意见领袖
 

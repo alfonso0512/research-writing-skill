@@ -1,4 +1,4 @@
-# OpenClaw workspace
+# OpenClaw workspace / editor
 *.log
 *.tmp
 .cache/
@@ -12,7 +12,3 @@
 # OS
 .DS_Store
 Thumbs.db
-
-# Personal notes
-notes/
-private/

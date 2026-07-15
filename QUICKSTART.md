@@ -4,36 +4,27 @@
 
 ---
 
-## 方式一：OpenClaw 用户（3 步搞定）
+## 方式一：OpenCode / Claude Code 用户（3 步搞定）
 
 ### Step 1: 复制技能文件
 
-将整个 `research-writing` 文件夹复制到：
+将整个 `research-writing` 文件夹复制到 skills 目录：
 
-```
-~/.openclaw/workspace/skills/research-writing
-```
-
-**Windows 用户**：
+**OpenCode 用户**：
 ```powershell
-# 如果已经在正确的目录
-Copy-Item -Path ".\skills\research-writing" -Destination "~\.openclaw\workspace\skills\" -Recurse
+# Windows
+Copy-Item -Path ".\research-writing" -Destination "$env:USERPROFILE\.config\opencode\skills\" -Recurse
 ```
 
-**macOS/Linux 用户**：
+**Claude Code 用户**：
 ```bash
-cp -r skills/research-writing ~/.openclaw/workspace/skills/
+# macOS/Linux
+cp -r research-writing ~/.claude/skills/
 ```
 
-### Step 2: 重启 OpenClaw
+### Step 2: 重启 AI 工具
 
-```bash
-# 方式 1: 重启 Gateway
-openclaw gateway restart
-
-# 方式 2: 在聊天中发送
-/reload
-```
+重启 OpenCode 或 Claude Code，Skill 将自动加载。
 
 ### Step 3: 开始使用
 
@@ -53,22 +44,22 @@ openclaw gateway restart
 
 ## 方式二：手动复制 Prompt（通用）
 
-### Step 1: 打开 SKILL.md
+### Step 1: 浏览 Prompt 目录
 
-用文本编辑器打开 `SKILL.md` 文件
+打开 `references/prompts/` 目录，30 个 Prompt 按编号命名
 
 ### Step 2: 找到需要的 Prompt
 
-使用 Ctrl+F 搜索关键词：
-- "中译英" → Prompt #1
-- "润色" → Prompt #3, #6
-- "文献总结" → Prompt #18
-- "摘要" → Prompt #23
+使用文件名搜索：
+- "zh2en" → 中译英 (#1)
+- "polish" → 润色 (#3, #6)
+- "lit-summary" → 文献总结 (#18)
+- "abstract" → 摘要 (#23)
 - 等等...
 
 ### Step 3: 复制 Prompt 模板
 
-复制整个代码块（从 ```markdown 到 ```）
+打开对应文件，复制全部内容
 
 ### Step 4: 粘贴到 AI 工具
 

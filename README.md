@@ -1,11 +1,12 @@
 # AI Research Writing Skill - 科研论文写作助手
 
-> 🎓 基于 AI 的科研论文写作助手，提供 30+ 个 Prompt 模板覆盖论文写作全流程
+> 🎓 基于 AI 的科研论文写作助手，提供 30 个 Prompt 模板覆盖论文写作全流程
 > 
-> **版本**: 2.0 | **License**: MIT | **语言**: 中文/英文
+> **版本**: 3.0 | **License**: MIT | **语言**: 中文/英文
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![OpenClaw Skill](https://img.shields.io/badge/OpenClaw-Skill-blue)](https://openclaw.ai)
+[![Version](https://img.shields.io/badge/version-3.0.0-blue)](https://github.com/alfonso0512/research-writing-skill)
+[![OpenCode Skill](https://img.shields.io/badge/OpenCode-Skill-green)](https://opencode.ai)
 
 ---
 
@@ -82,28 +83,26 @@
 
 ## 🚀 快速开始
 
-### 方式一：OpenClaw 用户（推荐）
-
-如果你使用 [OpenClaw](https://openclaw.ai)：
+### 方式一：OpenCode / Claude Code 用户（推荐）
 
 1. **克隆或下载** 本仓库到本地
-2. **复制** `skills/research-writing` 文件夹到：
-   ```
-   ~/.openclaw/workspace/skills/research-writing
-   ```
-3. **重启** OpenClaw 或发送 `/reload` 命令
+2. **复制**整个 `research-writing/` 文件夹到 skills 目录：
+   - OpenCode: `~/.config/opencode/skills/research-writing/`
+   - Claude Code: `~/.claude/skills/research-writing/`
+3. **重启** AI 工具或发送 `/reload` 命令
 4. **开始使用**：直接说"帮我润色这段论文"即可自动触发
 
 ### 方式二：手动使用 Prompt
 
-1. **浏览** 本仓库中的 `SKILL.md` 文件
-2. **复制** 需要的 Prompt 模板
-3. **粘贴** 到你使用的 AI 工具（Claude、ChatGPT、Cursor 等）
+1. **浏览** `references/prompts/` 目录，找到需要的 Prompt 文件
+2. **复制** 文件内容（Markdown 格式）
+3. **粘贴** 到你使用的 AI 工具（Claude、ChatGPT、Cursor、OpenCode 等）
 4. **替换** 模板中的 `{{变量}}` 为你的内容
 
 ### 方式三：其他 AI 工具
 
 本技能的 Prompt 模板兼容主流 AI 工具：
+- ✅ OpenCode / Claude Code（自动触发 + 按需加载）
 - ✅ Claude / Anthropic
 - ✅ ChatGPT / GPT-4
 - ✅ Cursor / VS Code
@@ -309,3 +308,4 @@ git push origin feature/your-feature
 - 灵感来源于科研工作者的真实需求
 
 ---
+**Happy Writing! 📝✨**
