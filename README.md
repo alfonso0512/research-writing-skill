@@ -306,6 +306,14 @@ git push origin feature/your-feature
 - 基于 [awesome-ai-research-writing](https://github.com/awesome-ai-research-writing) 整理
 - 感谢所有贡献者和用户
 - 灵感来源于科研工作者的真实需求
+---
+
+## 📱 关注公众号
+
+扫码关注，获取更多 **AI 使用技巧、科研经验与能源资讯**：
+
+![公众号二维码](assets/qrcode.jpg)
 
 ---
+
 **Happy Writing! 📝✨**
